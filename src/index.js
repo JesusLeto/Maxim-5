@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import ThemeContext from "./context";
 
-// localStorage.setItem("Table", JSON.stringify([[null]]))
-
 const Main = () => {
   console.log(JSON.parse(localStorage.getItem("Table")))
   const [TableArr, setTableArr] = useState(JSON.parse(localStorage.getItem("Table")) == null ? [[null]]: JSON.parse(localStorage.getItem("Table")))
