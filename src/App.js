@@ -3,8 +3,6 @@ import StringTable from "./StringTable";
 import ThemeContext from "./context";
 
 
-
-
 const App = () => {
 
   const {TableArr, setTableArr} = useContext(ThemeContext)
